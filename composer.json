@@ -1,0 +1,23 @@
+{
+    "name": "alzen8work/lazada-php-sdk",
+    "description": "A Lazada PHP SDK for Laravel",
+    "keywords": [
+        "lazada",
+        "lazop"
+    ],
+    "homepage": "https://github.com/alzen8work/lazada-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alzen8work",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lazada\\": "src"
+        }
+    }
+}
