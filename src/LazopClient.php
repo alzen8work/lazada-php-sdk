@@ -1,6 +1,7 @@
 <?php
 
 namespace Lazada;
+use Exception;
 
 class LazopClient
 {

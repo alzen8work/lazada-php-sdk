@@ -28,7 +28,7 @@ use Lazada\LazopClient;
 use Lazada\LazopRequest;
 
 ...
-$c = new LazopClient('https://api.lazada.test/rest', '${appKey}', '${appSecret}');
+$c = new LazopClient('https://api.lazada.com/rest', '${appKey}', '${appSecret}');
 $request = new LazopRequest('/mock/api/get');
 $request->addApiParam('api_id',1);
 $request->addHttpHeaderParam('cx','test');
