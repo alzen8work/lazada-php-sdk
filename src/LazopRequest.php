@@ -37,7 +37,7 @@ class LazopRequest
 
 		if(is_object($value))
 		{
-			$this->udfParams[$key] = json_decode($value);
+			$this->udfParams[$key] = json_encode($value);
 		}
 		else
 		{

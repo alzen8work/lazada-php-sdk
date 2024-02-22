@@ -104,7 +104,7 @@ class LazopClient
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		}
 
-	    $output = curl_exec($ch);
+	    $reponse = curl_exec($ch);
 		
 		$errno = curl_errno($ch);
 
@@ -123,7 +123,7 @@ class LazopClient
 			}
 		}
 
-		return $output;
+		return $reponse;
 	}
 
 	public function curl_post($url, $postFields = null, $fileFields = null,$headerFields = null)
